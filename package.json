@@ -1,0 +1,22 @@
+{
+  "name": "duckduckgo",
+  "version": "1.0.0",
+  "description": "DuckDuckGo private search engine",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "install": "concurrently \"cd backend && npm i\" \"cd frontend && npm i\"",
+    "dev:client": "cd frontend && npm run dev",
+    "dev:server": "cd backend && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "later"
+  },
+  "author": "Yakiri",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
